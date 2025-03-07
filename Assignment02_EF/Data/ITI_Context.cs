@@ -20,7 +20,6 @@ namespace Assignment02_EF.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
             optionsBuilder.UseSqlServer("Server=RASHED\\SQLEXPRESS;database=ITI_ASS02;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
             base.OnConfiguring(optionsBuilder);
         }
